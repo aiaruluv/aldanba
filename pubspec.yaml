@@ -1,0 +1,36 @@
+name: aldanba
+description: Digital literacy project for elderly people.
+# Версия приложения
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Указывает версию Dart
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Здесь добавляются сторонние библиотеки, если они нужны.
+  # Например, для иконок или навигации:
+  cupertino_icons: ^1.0.2
+  # google_fonts: ^6.1.0 # Если захочешь красивые шрифты
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0 # Помогает писать чистый код
+
+flutter:
+  uses-material-design: true
+
+  # Если у тебя в коде есть картинки (логотип, иконки), 
+  # их нужно прописать здесь:
+  # assets:
+  #   - assets/images/logo.png
+  #   - assets/images/scam_example.png
+
+  # Если используешь свои шрифты:
+  # fonts:
+  #   - family: MyCustomFont
+  #     fonts:
+  #       - asset: assets/fonts/MyFont-Regular.ttf
